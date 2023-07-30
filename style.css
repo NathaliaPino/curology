@@ -30,7 +30,7 @@ header img {
 }
 
 header .menu a {
-  color: #000;
+  color: #1d1d44;
   font-family: Lexend;
   font-size: 16px;
   font-style: normal;
@@ -38,13 +38,19 @@ header .menu a {
   line-height: normal;
 }
 
-header .menu a.shop  {
-    padding: 10px 20px;    
-    background-color: #332E54;
-    border-radius: 70px;
-    border: none; 
-    color: white;      
-    
+header .menu a.shop {
+  padding: 10px 20px;
+  background-color: #332e54;
+  border-radius: 70px;
+  border: none;
+  color: white;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .conteudo {
@@ -66,11 +72,11 @@ header .menu a.shop  {
   width: 230px;
   height: 330px;
   flex-shrink: 0;
-  color: #000;
+  color: #1d1d44;
   font-family: Lexend;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 40px; /* 166.667% */
 }
 
@@ -93,15 +99,234 @@ header .menu a.shop  {
   gap: 30px;
 }
 
-.imagens .img1 {       
-    width: 150px;    
+.imagens .img1 {
+  width: 150px;
 }
-.imagens .img2 {       
-    width: 110px;    
+.imagens .img2 {
+  width: 110px;
+}
+
+.section1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+.produtosSec1TextoEprodutos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.produtosSec1TextoEprodutos .texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.produtosSec1TextoEprodutos .texto p {
+  color: #1d1d44;
+  text-align: right;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41.6px; /* 166.4% */
+}
+
+.produtosSection1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  
+}
+
+.produtosSection1 .produto img {
+  width: 235px;
+}
+
+.produtosSection1 .produto .titulo {
+  color: #1d1d44;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.produtosSection1 .produto p {
+  color: #1d1d44;
+  font-family: Lexend;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.4px; /* 185.455% */
+}
+
+.produtosSection1 .preco {
+  color: #1d1d44;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.2px; /* 181.333% */
+}
+
+.section1 .imagemEbotao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.section1 .imagemEbotao img {
+  width: 650px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.imagemEbotao button {
+  width: 153px;
+  padding: 16px 30.23px 15.5px 29.77px;
+  border-radius: 56px;
+  background: #1d1d44;
+  border: none;
+
+  color: #fff;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  gap: 750px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.section2 .div1 h2 {  
+  color: #332e54;
+  font-family: Lexend;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41.6px; /* 138.667% */
+}
+
+.section2 .div1 p {
+  color: #332e54;
+  font-family: Lexend;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+.section2 .div2 button {
+  min-height: 52px;
+  padding: 19px 26.69px 17px 26px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 48px;
+  border: 1px solid #6f5cff;
+  background: #6f5cff;
+  color: #fff;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 161.538% */
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.section3 .produtos .imagemProduto {
+  width: 273px;
+  height: 341.25px;
+}
+
+.section3 .produtos .imagemMulher {
+  width: 331px;
+  height: 414px;
+  flex-shrink: 0;
+}
+
+.section3 .produtos h3 {
+  color: #1d1d44;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 186.667% */
+}
+
+.section3 .produtos p {
+  color: #1d1d44;
+  font-family: Lexend;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.4px; /* altura com relação ao h3, tipo um gap*/
+}
+
+.section3 .imagemDiv {
+  position: relative;
+}
+
+.imagemDiv img.imagemMulher {
+  position: relative;
+}
+
+.imagemDiv img.play-circle {
+  position: absolute;
+  top: 10px; /* Ajuste essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
+  left: 10px; /* Ajuste essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
+  width: 70px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 70px; /* Ajuste o tamanho do ícone conforme necessário */
+  z-index: 1; /* Certifique-se de que o ícone do play esteja acima da imagem da mulher */
+  cursor: pointer; /* Adiciona o cursor tipo "pointer" (mão) ao passar o mouse sobre a imagem */
+}
+
+.section4 {
+  background: #1D1D44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.sectio .imagens {
+  display: flex;
+  flex-direction: row;
 }
 
 
-#videoOverlay {
+
+
+
+#videoId {
   display: none;
   position: fixed;
   top: 0;
@@ -114,18 +339,18 @@ header .menu a.shop  {
   z-index: 9999;
 }
 
-#videoPlayer {
+#video {
   width: 80%;
   max-width: 800px;
 }
 
-#closeButton {
+#botaoFechar {
   position: absolute;
   top: 10px;
   right: 10px;
   padding: 10px 25px;
   border-radius: 20px;
-  background-color: #332E54;
+  background-color: #332e54;
   color: white;
   border: none;
   cursor: pointer;
