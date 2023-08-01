@@ -488,17 +488,6 @@ footer .textos p {
   /* 188.462% */
 }
 
-
-
-
-
-
-
-
-
-
-
-
 #videoId {
   display: none;
   position: fixed;
@@ -527,4 +516,445 @@ footer .textos p {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1320px) {
+
+  .menu {
+    gap: 50px;
+  }
+
+  .conteudo {
+    gap: 40px;
+    margin-right: 50px;
+
+  }
+
+  .textoEbotao p {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 50px;
+  }
+
+  .textoEbotao img {
+    max-width: 180px;
+  }
+
+  .imagemPrincipal img {
+    max-width: 500px;
+  }
+
+  .imagens {
+    gap: 20px;
+  }
+
+  .section1 {
+    margin-top: 80px;
+
+  }
+
+  .imagemEbotao img {
+    max-width: 550px;
+
+  }
+
+  .produtosSection1 .produto img {
+    max-width: 300px;
+  }
+
+  .section2 {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .div1 h2 {
+    font-size: 24px;
+    /* Tamanho menor para o h2 */
+  }
+
+  .div2 button {
+    width: auto;
+    /* Permitir que o botão se ajuste automaticamente */
+    padding: 10px 30px;
+    /* Opcional: ajuste o padding do botão conforme necessário */
+  }
+
+  .section3 {
+    gap: 20px;
+  }
+
+  .produtos {
+    text-align: center;
+  }
+
+  .produtos .imagemProduto {
+    max-width: 250px;
+    /* Tamanho menor para a imagem do produto */
+    height: auto;
+    /* Permitir altura automática */
+  }
+
+  .produtos h3 {
+    font-size: 18px;
+    /* Tamanho menor para o h3 */
+  }
+
+  .produtos p {
+    font-size: 14px;
+    /* Tamanho menor para o parágrafo */
+  }
+
+  .section4 .imagens div {
+    max-width: 100px;
+    /* Tamanho menor para a div de imagens */
+    height: auto;
+    /* Permitir altura automática */
+  }
+
+  .section4 .titulo {
+    font-size: 16px;
+    /* Tamanho menor para o título */
+    margin-left: 40px;
+    /* Ajustar a margem esquerda do título */
+    margin-right: 10px;
+    /* Ajustar a margem direita do título */
+    margin-top: 30px;
+    /* Ajustar a margem superior do título */
+    margin-bottom: 30px;
+    /* Ajustar a margem inferior do título */
+  }
+
+  .section4 .imagens p {
+    font-size: 12px;
+    /* Tamanho menor para o parágrafo */
+  }
+
+  .section4 button {
+    width: 200px;
+    /* Tamanho fixo para o botão */
+    padding: 10px 30px;
+    /* Opcional: ajuste o padding do botão conforme necessário */
+  }
+
+  footer {
+    width: 1050px;
+    padding: 40px 20px 40px 20px;
+    gap: 50px;
+    border: none;
+  }
+}
+
+
+
+
+/* Para telas com largura máxima de 1120px */
+@media only screen and (max-width: 1080px) {
+
+  .conteudo {
+    gap: 40px;
+    margin-left: 5%;
+  }
+
+  .textoEbotao p {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 50px;
+  }
+
+  .textoEbotao img {
+    max-width: 180px;
+  }
+
+  .imagemPrincipal img {
+    max-width: 500px;
+  }
+
+  .imagens {
+    gap: 20px;
+  }
+
+  .section1 {
+    margin-top: 80px;
+    margin-left: 5%;
+  }
+
+
+  .imagemEbotao img {
+    max-width: 500px;
+
+  }
+
+  .produtosSection1 .produto img {
+    max-width: 300px;
+  }
+
+  .section2 {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .div1 h2 {
+    font-size: 18px;
+    /* Tamanho menor para o h2 */
+  }
+
+  .div2 button {
+    width: auto;
+    /* Permitir que o botão se ajuste automaticamente */
+    padding: 10px 30px;
+    /* Opcional: ajuste o padding do botão conforme necessário */
+  }
+
+  .section3 {
+    gap: 20px;
+
+  }
+
+  .produtos {
+    text-align: center;
+  }
+
+  .produtos .imagemProduto {
+    max-width: 220px;
+    /* Tamanho menor para a imagem do produto */
+    height: auto;
+    /* Permitir altura automática */
+  }
+
+  .produtos h3 {
+    font-size: 18px;
+    /* Tamanho menor para o h3 */
+  }
+
+  .produtos p {
+    font-size: 14px;
+    /* Tamanho menor para o parágrafo */
+  }
+
+  .section4 .imagens div {
+    max-width: 20%;
+    /* Tamanho proporcional para a div de imagens */
+    height: auto;
+    /* Permitir altura automática */
+  }
+
+
+  .section4 .titulo {
+    font-size: 16px;
+    /* Tamanho menor para o título */
+    margin-left: 40px;
+    /* Ajustar a margem esquerda do título */
+    margin-right: 10px;
+    /* Ajustar a margem direita do título */
+    margin-top: 30px;
+    /* Ajustar a margem superior do título */
+    margin-bottom: 30px;
+    /* Ajustar a margem inferior do título */
+  }
+
+  .section4 .imagens p {
+    font-size: 12px;
+    /* Tamanho menor para o parágrafo */
+  }
+
+  .section4 button {
+    width: 200px;
+    /* Tamanho fixo para o botão */
+    padding: 10px 30px;
+    /* Opcional: ajuste o padding do botão conforme necessário */
+  }
+
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Seção Conteúdo */
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 20%;
+    margin-top: 5%;
+
+  }
+
+  .textoEbotao p {
+    max-width: 100%;
+    width: 100%;
+
+  }
+
+  .textoEbotao img {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .imagemPrincipal img {
+    max-width: 100%;
+  }
+
+  .imagens {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* Seção 1 */
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  /* Seção 2 */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  /* Seção 3 */
+  .section3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-left: 20%;
+  }
+
+  /* Seção 4 */
+  .section4 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+
+  }
+
+  .section4 .imagens {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
+
+  .section4 .imagens .item {
+    margin-bottom: 20px;
+  }
+
+  .section4 button {
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120%;
+
+  }
+
+  header {
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+   gap: 50px;
+
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  /* Seção Conteúdo */
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .textoEbotao p {
+    max-width: 100%;
+    width: 100%;
+
+  }
+
+  .textoEbotao img {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .imagemPrincipal img {
+    max-width: 100%;
+  }
+
+  .imagens {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* Seção 1 */
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .section1 .produtosSection1 {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+  /* Seção 2 */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  /* Seção 3 */
+  .section3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-left: 20%;
+  }
+
+  /* Seção 4 */
+  .section4 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+
+  }
+
+  .section4 .imagens {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+  }
 }
