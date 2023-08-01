@@ -77,7 +77,8 @@ main section {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
+  /* 166.667% */
 }
 
 .textoEbotao img {
@@ -102,6 +103,7 @@ main section {
 .imagens .img1 {
   width: 150px;
 }
+
 .imagens .img2 {
   width: 110px;
 }
@@ -113,7 +115,6 @@ main section {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  
 }
 
 .produtosSec1TextoEprodutos {
@@ -135,7 +136,8 @@ main section {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 41.6px; /* 166.4% */
+  line-height: 41.6px;
+  /* 166.4% */
 }
 
 .produtosSection1 {
@@ -144,7 +146,6 @@ main section {
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
-  
 }
 
 .produtosSection1 .produto img {
@@ -166,7 +167,8 @@ main section {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20.4px; /* 185.455% */
+  line-height: 20.4px;
+  /* 185.455% */
 }
 
 .produtosSection1 .preco {
@@ -175,7 +177,8 @@ main section {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 27.2px; /* 181.333% */
+  line-height: 27.2px;
+  /* 181.333% */
 }
 
 .section1 .imagemEbotao {
@@ -211,20 +214,20 @@ main section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 750px;
   margin-top: 50px;
   margin-bottom: 50px;
-  
 }
 
-.section2 .div1 h2 {  
+.section2 .div1 h2 {
   color: #332e54;
   font-family: Lexend;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 41.6px; /* 138.667% */
+  line-height: 41.6px;
+  /* 138.667% */
 }
 
 .section2 .div1 p {
@@ -233,7 +236,8 @@ main section {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
+  /* 171.429% */
 }
 
 .section2 .div2 button {
@@ -250,7 +254,8 @@ main section {
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21px; /* 161.538% */
+  line-height: 21px;
+  /* 161.538% */
 }
 
 .section3 {
@@ -259,7 +264,7 @@ main section {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .section3 .produtos .imagemProduto {
@@ -279,7 +284,8 @@ main section {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 186.667% */
+  line-height: 28px;
+  /* 186.667% */
 }
 
 .section3 .produtos p {
@@ -288,7 +294,8 @@ main section {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20.4px; /* altura com relação ao h3, tipo um gap*/
+  line-height: 20.4px;
+  /* altura com relação ao h3, tipo um gap*/
 }
 
 .section3 .imagemDiv {
@@ -301,26 +308,192 @@ main section {
 
 .imagemDiv img.play-circle {
   position: absolute;
-  top: 10px; /* Ajuste essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
-  left: 10px; /* Ajuste essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
-  width: 70px; /* Ajuste o tamanho do ícone conforme necessário */
-  height: 70px; /* Ajuste o tamanho do ícone conforme necessário */
-  z-index: 1; /* Certifique-se de que o ícone do play esteja acima da imagem da mulher */
-  cursor: pointer; /* Adiciona o cursor tipo "pointer" (mão) ao passar o mouse sobre a imagem */
+  top: 10px;
+  /* Ajustar essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
+  left: 10px;
+  /* Ajustar essa posição conforme necessário para posicionar o ícone no canto esquerdo superior */
+  width: 70px;
+  /* Ajustar o tamanho do ícone conforme necessário */
+  height: 70px;
+  /* Ajustar o tamanho do ícone conforme necessário */
+  z-index: 1;
+  /* Certificando-se de que o ícone do play esteja acima da imagem da mulher */
+  cursor: pointer;
+  /* Adiciona o cursor tipo "pointer" (mão) ao passar o mouse sobre a imagem */
 }
 
 .section4 {
-  background: #1D1D44;
+  background: #1d1d44;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-bottom: 50px;
+}
+
+.section4 .imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin: 0 auto;
+  /*centralizar a div das imagens */
+}
+
+.section4 .titulo {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41.6px;
+  /* 138.667% */
+}
+
+.section4 .imagens p {
+  color: #FFF;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.2px;
+  /* 141.818% */
+
+}
+
+.section4 button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 272px;
+  min-height: 52px;
+  padding: 18px 74px 16px 73px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 48px;
+  border: 1px solid #6F5CFF;
+  background: #6F5CFF;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  /* 161.538% */
+
+}
+
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:flex-start;
+  justify-content: center;
+  width: 1280px;
+  padding: 50px 30px 50px 30px;
+  gap: 80px;
+  border: 1px solid #000;
+  margin-left: 30px;
+  margin-bottom: 40px;
 }
 
-.sectio .imagens {
+footer .div1 {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 250px;
 }
+
+footer .imagem {
+  margin-bottom: 200px;
+}
+
+footer .div1 .links1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+footer .div1 .links2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+footer .div1 a {
+  color: #000;
+  font-family: Lexend;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 186.667% */
+}
+
+footer .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+footer .textos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+footer .texto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .texto a {
+  color: #353535;
+  font-family: Lexend;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  /* 204.167% */
+  text-decoration-line: underline;
+}
+
+footer .textos p {
+  color: #000;
+  font-family: Lexend;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+  /* 188.462% */
+}
+
+
+
+
+
+
+
 
 
 
